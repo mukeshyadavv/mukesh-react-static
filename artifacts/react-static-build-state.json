@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\src\\pages"
+      }
+    ],
+    "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\React_UI_Project\\react-static-2\\mukesh-react-static"
+  ],
+  "paths": {
+    "ROOT": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static",
+    "SRC": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\src",
+    "DIST": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\dist",
+    "ASSETS": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\dist",
+    "PLUGINS": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\plugins",
+    "TEMP": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\tmp",
+    "ARTIFACTS": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\artifacts",
+    "PUBLIC": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\public",
+    "NODE_MODULES": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\node_modules",
+    "EXCLUDE_MODULES": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\node_modules",
+    "PACKAGE": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\package.json",
+    "HTML_TEMPLATE": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\dist\\index.html",
+    "STATIC_DATA": "C:\\React_UI_Project\\react-static-2\\mukesh-react-static\\dist\\staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
